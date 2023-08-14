@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const MONGO_URI = `mongodb+srv://ceepeetres:Dothetingman23-@cluster0.ofulwwo.mongodb.net/`;
+const MONGO_URI = ``;
 const Schema = mongoose.Schema;
 
 mongoose.connect(MONGO_URI, {
