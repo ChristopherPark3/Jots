@@ -1,0 +1,148 @@
+/* Navbar styling */
+body {
+    margin: 0;
+}
+.navbar-container {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    /* background-color: green; */
+}
+.navbar-container li {
+    list-style-type: none;
+    margin: 0 30px;
+}
+.navbar-item {
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+}
+.navbar-item:hover {
+    text-shadow: 2px 2px 5px gray;
+}
+
+.line-break {
+    margin: 0;
+    width: 100vw;
+    height: 1px;
+    background-color: black;
+}
+
+/* Entry modal */
+.addEntry {
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: grey;
+    font-weight: 500;
+    opacity: 40%;
+    position: fixed;
+    top: 900px;
+    left: 1850px;
+}
+.addEntry:hover {
+    cursor: grab;
+    box-shadow: 2px 2px 10px gray;
+    opacity: 50%;
+}
+.entryModalContent {
+    position: fixed;
+    top: 200px;
+    left: 36vw;
+    background-color: grey;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+
+}
+.entryModalContent textarea {
+    height: 300px;
+    border: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 16px;
+
+}
+.entryModalContent button {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 1000;
+    width: 100px;
+}
+.entryModalContent button:hover {
+    cursor: grab;
+}
+
+.AllEntries {
+    /* background-color: pink; */
+    height: 100vh;
+}
+
+.card {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(198, 194, 194);
+    font-family: 'Shadows Into Light', cursive;
+    padding: 10px;
+    border-radius: 20px;
+}
+.entriesContainer {
+    /* background-color: rgb(242, 242, 242); */
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    height: 74vh;
+    width: 100vw;
+}
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;    
+    height: 80px;
+}
+
+.modalHeader h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+.modalHeader h1:hover {
+    cursor: cursor;
+}
+.modalHeader button {
+    height: 35px;
+    width: 35px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+}
+
+.modalHeader button:hover {
+    cursor: grab;
+}
+
+.home-page {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page *{
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.AllEntries h1 {
+    font-family: 'Shadows Into Light', cursive;
+}
+.card-container {
+    margin-right: 50px;
+}
